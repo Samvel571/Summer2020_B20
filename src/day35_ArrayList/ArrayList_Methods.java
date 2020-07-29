@@ -1,6 +1,7 @@
 package day35_ArrayList;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class ArrayList_Methods {
 

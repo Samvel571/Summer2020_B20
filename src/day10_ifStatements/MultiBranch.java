@@ -28,6 +28,13 @@ public class MultiBranch {
         }
 
 
+        int num = 10;
+        if(--num >10){
+            System.out.println("hello"+num);
+        }else if(num ==9 ){
+            System.out.println("word"+num);
+        }
+        System.out.println(num);
 
 
     }
