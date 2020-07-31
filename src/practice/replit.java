@@ -7,25 +7,37 @@ public class replit {
 
 
     public static void main(String[] args) {
-        String s1 = "12345";
-        String s2 = "abcde";
-
-//        String[] arr1 = s1.split("");
-//        String[] arr2 = s2.split("");
-//
-//        ArrayList<String> list = new ArrayList<>();
-
-        String results = "";
-
-        for (int i = 0; i < s1.length(); i++) {
+        String one = "12345";
+        String two = "abcdefghij";
 
 
-            System.out.println(results);
+        String results ="";
 
+        String longer ="";
+        String shorter ="";
+        int shortestStrLength =0;
+
+        if (one.length()>two.length()){
+            longer = one;
+            shorter = two;
+            shortestStrLength =two.length();
+        }else {
+            longer =two;
+            shorter =one;
+            shortestStrLength =one.length();
         }
 
 
+        for (int i = 0; i < shortestStrLength;i++){
+            results += ""+one.charAt(i)+two.charAt(i);
+        }
+
+            results += longer.substring(shortestStrLength);
+
+
+        System.out.println(results);
     }
+
 
 }
 
