@@ -25,6 +25,7 @@ public class Arrays_getDup {
 
         System.out.println(result.size() );
 
+            //hghgghghghghgh
         }
 
     }
