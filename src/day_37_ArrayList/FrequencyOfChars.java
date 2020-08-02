@@ -3,6 +3,7 @@ package day_37_ArrayList;
 import Library.Util;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 
 public class FrequencyOfChars {
@@ -11,10 +12,11 @@ public class FrequencyOfChars {
         String str = "AAABBC";
 
         ArrayList<String> list = new ArrayList<>();
+        list.addAll(Arrays.asList(str.split("")));
 
-        for(String each  : str.split("") ){
-            list.add(each);
-        }
+//        for(String each  : str.split("") ){
+//            list.add(each);
+//        }
 
         System.out.println(list);
 
