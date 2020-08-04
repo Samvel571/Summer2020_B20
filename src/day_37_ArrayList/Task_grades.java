@@ -42,8 +42,7 @@ public class Task_grades {
         System.out.println("grade F = " + gradOfF.size());
 
 
-
-        /*
+                 /*
         how many students made:
         A?
         B?
