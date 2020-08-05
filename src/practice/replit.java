@@ -36,6 +36,18 @@ public class replit {
 
 
         System.out.println(results);
+
+
+
+
+
+        int num = 80;
+
+        while(num >= 20){
+
+            System.out.print(num+" ");
+            num -=2;
+        }
     }
 
 
