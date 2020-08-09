@@ -1,6 +1,5 @@
-package day_37_ArrayList;
+package day37_ArrayList;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
