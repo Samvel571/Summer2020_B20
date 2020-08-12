@@ -106,14 +106,16 @@ class Main {
 
 
 		for (int i = 0; i < words.length; i++) {
-			System.out.println(words[i].charAt(0) +"" + words[i].charAt(words[i].length() - 1));
-
-
-
-
+			System.out.println(words[i].charAt(0) + "" + words[i].charAt(words[i].length() - 1));
 		}
-	}
+
 	}
 
+
+
+
+
+
+}
 
 
