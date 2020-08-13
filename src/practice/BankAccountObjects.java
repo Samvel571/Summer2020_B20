@@ -14,14 +14,15 @@ public class BankAccountObjects {
 
        bankAccount1.deposit(45);
 
-       bankAccount1.withdraw(200);
+//       bankAccount1.withdraw(200);
+//
+//       bankAccount1.withdraw(100);
+//
+//       bankAccount1.deposit(300);
+//
+//       bankAccount1.withdraw(200);
 
-       bankAccount1.withdraw(100);
-
-       bankAccount1.deposit(300);
-
-       bankAccount1.withdraw(200);
-
+        bankAccount1.withdraw(250);
 
     }
 

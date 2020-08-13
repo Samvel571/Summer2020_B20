@@ -31,7 +31,7 @@ public class BankAccount {
    public void withdraw( double amount) {
        double penalty = 35;
 
-       if (balance <= 0) {
+       if (balance <= 100) {
            System.out.println("Insufficient funds, your transaction is declined ");
 
        } else if (amount > balance) {
