@@ -6,10 +6,13 @@ public class Item {
     double unitPrice;
     int quantity;
 
-    public Item(String name,double unitPrice,int quantity){
-        this.name=name;
-        this.unitPrice = unitPrice;
-        this.quantity = quantity;
+
+
+
+    public Item(String Name,double unitPrice,int quantity){
+        name=Name;
+       this.unitPrice = unitPrice;
+       this.quantity = quantity;
     }
 
     public double calcCost(){
@@ -22,6 +25,6 @@ public class Item {
     @Override
     public String toString() {
         return
-                "Name: " + name  + ",\nunitPrice: " + unitPrice + ",\nquantity: " + quantity;
+                "Name: " + name  + ",\nUnitPrice: " + unitPrice + "\nQuantity: " + quantity;
     }
 }

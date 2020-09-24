@@ -7,6 +7,11 @@ import java.util.Arrays;
 public class ArrayList_Review {
 
     public static void main(String[] args) {
+
+
+        String str = "abc";
+        System.out.println(str.toLowerCase());
+
         ArrayList<Integer> list1 = new ArrayList<>();
         list1.add(10);
         list1.add(20);

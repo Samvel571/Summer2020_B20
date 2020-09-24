@@ -14,6 +14,8 @@ public class MyOffers {
         Offer offer6 = new Offer();
         Offer offer7 = new Offer();
 
+
+
         offer1.setOfferInfo(105000, "VA", true, true, true, "SDET", true);
         offer2.setOfferInfo(175_000,"VA",true,true, false, "SDET", true);
         offer3.setOfferInfo(125000,"VA", true, true, true, "SDET", true);
