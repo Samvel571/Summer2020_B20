@@ -21,7 +21,7 @@ public class RemoveDuplicates_ArrayList {
 
     public static void main(String[] args) {
         ArrayList<Integer> list = RemoveDuplicates_ArrayList.removeDups(
-                new ArrayList<Integer>(Arrays.asList(1, 2, 3, 4, 3, 2, 1, 4, 5, 6, 7, 8, 9, 9)));
+                new ArrayList<>(Arrays.asList(1, 2, 3, 4, 3, 2, 1, 4, 5, 6, 7, 8, 9, 9)));
 
         System.out.println(list);
 
